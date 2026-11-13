@@ -13,6 +13,10 @@ other UART-based device over USB-C, exposing TX, RX, GND, and VCC on a
 simple header. It replaces the need for a legacy USB-A to serial adapter 
 with a compact, modern USB-C native solution.
 
+<p align="center">
+  <img src="./ch340c-usb-uart-board_render.png" alt="CH340C USB-C to UART converter PCB 3D render" width="780">
+</p>
+
 ## Key Design Features
 
 - **CH340C** USB-to-UART bridge IC (crystal-less variant, integrated 
@@ -54,3 +58,8 @@ Designed entirely in KiCad 10.
 ## Status
 
 Schematic and layout complete, DRC clean. Not yet fabricated/assembled.
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
+
